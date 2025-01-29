@@ -1,25 +1,22 @@
 # AssessmentSubmission
 Elastiq.AI Take Home Assessment - Solution submission
 
-### APPROACH
+## 🧪 Selenium Test Automation - Table Search Demo
 
-This script validates the search functionality of the "Table Sort Search Demo" on the Selenium Playground. It performs the following:
-1.	Opens the demo webpage using the Chrome browser.
-2.	Locates the search box element.
-3.	Enters the search term "New York" into the search box.
-4.	Counts the visible rows that match the search term dynamically.
-5.	Confirms that the search results display exactly 5 rows.
-6.	Ensures that the total number of entries remains 24.
-The test is implemented using the pytest framework to ensure modularity and robust test execution.
+### 📌 Overview  
+This script automates a search functionality test using **Selenium WebDriver** on the [LambdaTest Selenium Playground](https://www.lambdatest.com/selenium-playground/table-sort-search-demo).
 
+### 🔍 Test Steps  
+1. **Opens the webpage** containing a searchable table.  
+2. **Searches for "New York"** in the table's search box.  
+3. **Verifies exactly 5 matching rows** are displayed.  
+4. **Checks that the total entries message** reflects 24 total entries.  
 
+---
 
-### HOW TO RUN THE SCRIPT
+## ⚙️ Setup & Prerequisites  
 
-1.	Clone or download this repository.
-2.	Ensure Python (3.8 or higher) is installed on your system.
-3.	Install dependencies using:
-    pip install -r requirements.txt
-4.	Save the script as qa_selenium_test.py in the same directory.
-5.	Run the test using pytest:
-    pytest qa_selenium_test.py
+### 🔹 1. Install Python  
+Ensure **Python 3.7+** is installed. Check your version:  
+```sh
+python --version
