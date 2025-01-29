@@ -90,7 +90,7 @@ cd path/to/your/project
 Run the test script using pytest:
 
 ```sh
-pytest testnew.py
+pytest qa_selenium_test.py
 ```
 
 This will:
